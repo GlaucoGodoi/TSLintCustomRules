@@ -1,7 +1,7 @@
 {
   "rulesDirectory": [
     "node_modules/codelyzer",
-    "P18TsLintRules"
+    "P18TsLintRules" 
   ],
   "rules": {
     "no-import-from-modules": [true,"featureModules","differntData"],
