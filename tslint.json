@@ -4,7 +4,7 @@
     "P18TsLintRules" 
   ],
   "rules": {
-    "no-import-from-modules": [true,"featureModules","differntData"],
+    "no-import-from-feature-modules": [true,"featureModules"],
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,

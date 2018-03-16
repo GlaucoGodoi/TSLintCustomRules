@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EnrollComponent } from '@featureModules/subscription/enroll/enroll.component';
 import { SuspendComponent } from '@featureModules/subscription/suspend/suspend.component';
-import { ViewConsumpptionComponent } from '@featureModules/subscription/view-consumpption/view-consumpption.component';
+import { ViewConsumptionComponent } from '@featureModules/subscription/view-consumption/view-consumption.component';
 import { SubscriptionLocalService } from '@featureModules/subscription/subscription-local.service';
 
 
@@ -11,7 +11,7 @@ import { SubscriptionLocalService } from '@featureModules/subscription/subscript
   imports: [
     CommonModule
   ],
-  declarations: [EnrollComponent, SuspendComponent, ViewConsumpptionComponent],
+  declarations: [EnrollComponent, SuspendComponent, ViewConsumptionComponent],
   providers: [SubscriptionLocalService]
 })
 export class SubscriptionModule { }
